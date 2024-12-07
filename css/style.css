@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    background: url("../img/lisa.jpg"); /* Фоновый цвет*/
+    font-family: Arial; /* Меняем шрифт*/
+    margin: 0;
+    background-size: cover;
+}
+
+.card {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+
+    background-color: #fff;
+    box-shadow: 0 5px 10px #ccc;
+    border-radius: 10px;
+}
+
+.card_photo {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.card_title {
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}
+
+.card_text {
+    font-size: 14px;
+}
+
+.card_subtitle {
+    font-size: 18px;
+}
+
+.card_list {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.ssl {
+    text-decoration: none;
+}
